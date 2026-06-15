@@ -9,13 +9,13 @@ This is a beginner-friendly RNA-seq differential expression analysis project usi
 3. Generate PCA plot, volcano plot, and heatmap
 
 ## Project Structure
-- scripts/: R scripts used in the analysis
-- data/: simulated count matrix and metadata
-- results/: DESeq2 output table
-- figures/: generated plots
+- Deseq2 scripts/: R scripts used in the analysis
+- Data/: simulated count matrix and metadata
+- Results/: DESeq2 output table
+- Figures(PCA, volcano, heatmap)/: generated plots
 
 ## Requirements
-R packages:
+R packages(install them before starting with the scripts) :
 - DESeq2
 - tidyverse
 - pheatmap
